@@ -1,0 +1,24 @@
+{
+  "images" : [
+    {
+      "filename" : "2203549_admin_avatar_human_login_user_icon.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}

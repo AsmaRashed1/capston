@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>60457947715-ermc1mb4ehbvoe96ju9br46a9qps63iv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.60457947715-ermc1mb4ehbvoe96ju9br46a9qps63iv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCbUICAEqYpoaFlGm6ei_G5wLwkHudyM2U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>60457947715</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.itsFiori.KidsApp</string>
+	<key>PROJECT_ID</key>
+	<string>kidsapp-66bbc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kidsapp-66bbc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:60457947715:ios:e88be1dc65028761a3faf6</string>
+</dict>
+</plist>
