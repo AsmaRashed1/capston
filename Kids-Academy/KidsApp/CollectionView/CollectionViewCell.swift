@@ -23,7 +23,7 @@ class CollectionViewCell: UICollectionViewCell {
         let processor = RoundCornerImageProcessor(cornerRadius: 20)
         imgView.kf.setImage(
             with: downloadURL,
-            placeholder: UIImage(named: "logo"),
+//            placeholder: UIImage(named: "logo"),
             options: [
                 .processor(processor),
                 .scaleFactor(UIScreen.main.scale),

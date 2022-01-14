@@ -191,7 +191,6 @@
 			children = (
 				57C96B2A278DB04D003E2A88 /* Model */,
 				57C96B36278DB04D003E2A88 /* Controler */,
-				57C96B2E278DB04D003E2A88 /* View */,
 				57C96B1B278DB04D003E2A88 /* Quiz */,
 				57C96B1D278DB04D003E2A88 /* Animation */,
 				57C96AE6278DB04D003E2A88 /* Drawing */,
@@ -345,13 +344,6 @@
 				57C96B2D278DB04D003E2A88 /* StructQuiz.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		57C96B2E278DB04D003E2A88 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		57C96B36278DB04D003E2A88 /* Controler */ = {
