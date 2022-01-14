@@ -30,7 +30,7 @@ class AddNewProductVC: UIViewController {
         lableDone.text = "Done Upload"
         
         let GenerateID = UUID().uuidString
-        let newProduct = ProductObject(ID: GenerateID, Stamp: Date().timeIntervalSince1970,Des: self.Des.text!, image: "https://firebasestorage.googleapis.com/v0/b/kidsapp-66bbc.appspot.com/o/Green.png?alt=media&token=deea86fa-faa5-4f8d-ad3c-8078c840a5cc")
+        let newProduct = ProductObject(ID: GenerateID, Stamp: Date().timeIntervalSince1970,Des: self.Des.text!, image: "https://firebasestorage.googleapis.com/v0/b/kidsapp-66bbc.appspot.com/o/Red.png?alt=media&token=1f3b8aa8-a403-4162-80fa-0ebabd7b76b4")
         
         newProduct.Upload()
         

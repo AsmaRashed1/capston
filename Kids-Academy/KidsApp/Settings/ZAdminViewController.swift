@@ -27,14 +27,14 @@ class ZAdminViewController: UIViewController {
         let UsetX = UsetX.text
         let USName = "1234"
         if (UsetX == USName){
-          performSegue(withIdentifier: "d", sender: self)
+          performSegue(withIdentifier: "admin", sender: self)
       }else{
           Messeage()
       }
   }
   
   func Messeage(){
-      let alert = UIAlertController(title: "OK", message: "تأكد من صحة اسم المستخدم المعطى لك من قبل المطور", preferredStyle: UIAlertController.Style.alert)
+      let alert = UIAlertController(title: "OK", message: "Make sure the password is correct", preferredStyle: UIAlertController.Style.alert)
       alert.addAction(UIAlertAction(title: "CANCEL", style: UIAlertAction.Style.cancel, handler: nil))
       self.present(alert, animated: true, completion: nil)
   
