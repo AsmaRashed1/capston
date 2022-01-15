@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  KidsApp
 //
-//  Created by Asma Rasheed on 08/06/1443 AH.
+//  Created by Asma Rasheed on 16/12/2021.
 //
 
 import UIKit

@@ -39,7 +39,7 @@ class HomeStartViewController: UIViewController {
         self.view.layer.insertSublayer(pulse, below: self.view.layer)
     }
     func playVideo() {
-        guard let path = Bundle.main.path(forResource: "video", ofType: "mov") else {
+        guard let path = Bundle.main.path(forResource: "Traditional Animation Logo", ofType: "MOV") else {
             return
         }
         
@@ -56,5 +56,16 @@ class HomeStartViewController: UIViewController {
    
     }
     
+    @IBAction func getStart(_ sender: UIButton) {
+        
+        let pulse = PulseAnimation(numberOfPulse: Float.infinity, radius: 100, postion: sender.center)
+        pulse.animationDuration = 1.0
+        pulse.backgroundColor = #colorLiteral(red: 0.2247976189, green: 0.4235115114, blue: 1, alpha: 1)
+        self.view.layer.insertSublayer(pulse, below: self.view.layer)
+        let pulse1 = PulseAnimation(numberOfPulse: 15, radius: 200, postion: sender.center)
+        pulse1.animationDuration = 1.4
+        pulse1.backgroundColor = #colorLiteral(red: 1, green: 0.3653766513, blue: 0.1507387459, alpha: 1)
+        self.view.layer.insertSublayer(pulse1, below: self.view.layer)
+    }
     
 }

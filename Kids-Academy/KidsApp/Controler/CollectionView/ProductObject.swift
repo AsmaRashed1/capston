@@ -10,43 +10,43 @@ import FirebaseFirestore
 
 class ProductObject {
     
-    var ID : String?
-    var Stamp : TimeInterval?
-    var Des : String?
+    var id : String?
+    var stamp : TimeInterval?
+    var des : String?
     var image : String?
     
     
     init(ID : String, Stamp : TimeInterval, Des : String,image:String) {
-        self.ID = ID
-        self.Stamp = Stamp
-        self.Des = Des
+        self.id = ID
+        self.stamp = Stamp
+        self.des = Des
         self.image = image
     }
     
     init(Dictionary : [String : AnyObject]) {
-        self.ID = Dictionary["ID"] as? String
-        self.Stamp = Dictionary["Stamp"] as? TimeInterval
-        self.Des = Dictionary["Des"] as? String
+        self.id = Dictionary["ID"] as? String
+        self.stamp = Dictionary["Stamp"] as? TimeInterval
+        self.des = Dictionary["Des"] as? String
         self.image = Dictionary["Image"] as? String
         
     }
     
     func MakeDictionary()->[String : AnyObject] {
-        var D : [String : AnyObject] = [:]
-        D["ID"] = self.ID as AnyObject
-        D["Stamp"] = self.Stamp as AnyObject
-        D["Des"] = self.Des as AnyObject
-        D["Image"] = self.image as AnyObject
-        return D
+        var data : [String : AnyObject] = [:]
+        data["ID"] = self.id as AnyObject
+        data["Stamp"] = self.stamp as AnyObject
+        data["Des"] = self.des as AnyObject
+        data["Image"] = self.image as AnyObject
+        return data
     }
     
     func Upload(){
-        guard let id = self.ID else { return }
+        guard let id = self.id else { return }
         Firestore.firestore().collection("Products").document(id).setData(MakeDictionary())
     }
     
     func Remove(){
-        guard let id = self.ID else { return }
+        guard let id = self.id else { return }
         Firestore.firestore().collection("Products").document(id).delete()
     }
     

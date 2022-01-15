@@ -32,6 +32,7 @@ class SignIn: UIViewController {
                 print(error.debugDescription)
             }
         }
+        
     }
     private func setupBagroundTap(){
         let tapGesture = UITapGestureRecognizer (target: self, action: #selector(hideKeyboard))

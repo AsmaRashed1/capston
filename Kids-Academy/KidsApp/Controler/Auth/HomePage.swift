@@ -33,11 +33,4 @@ class HomePage: UIViewController {
         
     }
     
-    
-    
-    
-    
-    
-    
-
 }

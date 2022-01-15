@@ -9,7 +9,7 @@ import UIKit
 
 class Animls: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
-    @IBOutlet weak var AinmlsCollection: UICollectionView!
+    @IBOutlet weak var animalCollecation: UICollectionView!
     
     
     var img = [UIImage(named: "Dog"),UIImage(named: "Cow"),UIImage(named: "xantus"),UIImage(named: "toucan"),UIImage(named: "kangaroo")]
@@ -18,8 +18,8 @@ class Animls: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        AinmlsCollection.delegate = self
-        AinmlsCollection.dataSource = self
+        animalCollecation.delegate = self
+        animalCollecation.dataSource = self
     }
     
 

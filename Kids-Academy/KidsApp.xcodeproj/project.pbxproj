@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		578BF042278F444900CE9982 /* ZAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BF041278F444900CE9982 /* ZAdminViewController.swift */; };
+		57A6986B2792CA9B009E5776 /* StructAnimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6986A2792CA9B009E5776 /* StructAnimals.swift */; };
+		57A6986E2792CF7D009E5776 /* Traditional Animation Logo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 57A6986C2792CEA5009E5776 /* Traditional Animation Logo.MOV */; };
 		57C96ABF278DAF4D003E2A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C96ABE278DAF4D003E2A88 /* AppDelegate.swift */; };
 		57C96AC1278DAF4D003E2A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C96AC0278DAF4D003E2A88 /* SceneDelegate.swift */; };
 		57C96AC6278DAF4D003E2A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C96AC4278DAF4D003E2A88 /* Main.storyboard */; };
@@ -82,6 +84,8 @@
 
 /* Begin PBXFileReference section */
 		578BF041278F444900CE9982 /* ZAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAdminViewController.swift; sourceTree = "<group>"; };
+		57A6986A2792CA9B009E5776 /* StructAnimals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructAnimals.swift; sourceTree = "<group>"; };
+		57A6986C2792CEA5009E5776 /* Traditional Animation Logo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Traditional Animation Logo.MOV"; sourceTree = "<group>"; };
 		57C96ABB278DAF4D003E2A88 /* KidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C96ABE278DAF4D003E2A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C96AC0278DAF4D003E2A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,16 +195,7 @@
 			children = (
 				57C96B2A278DB04D003E2A88 /* Model */,
 				57C96B36278DB04D003E2A88 /* Controler */,
-				57C96B1B278DB04D003E2A88 /* Quiz */,
 				57C96B1D278DB04D003E2A88 /* Animation */,
-				57C96AE6278DB04D003E2A88 /* Drawing */,
-				57C96AE8278DB04D003E2A88 /* Letters */,
-				57C96B04278DB04D003E2A88 /* Numbers */,
-				57C96B0F278DB04D003E2A88 /* CollectionView */,
-				57C96B14278DB04D003E2A88 /* Auth */,
-				57C96B17278DB04D003E2A88 /* Animls */,
-				57C96B26278DB04D003E2A88 /* Videos */,
-				57C96AE2278DB04D003E2A88 /* Settings */,
 				57C96ABE278DAF4D003E2A88 /* AppDelegate.swift */,
 				57C96AC0278DAF4D003E2A88 /* SceneDelegate.swift */,
 				57C96B20278DB04D003E2A88 /* GoogleService-Info.plist */,
@@ -294,8 +289,10 @@
 		57C96B14278DB04D003E2A88 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				57C96AE5278DB04D003E2A88 /* ViewController.swift */,
 				57C96B15278DB04D003E2A88 /* SignUp.swift */,
 				57C96B16278DB04D003E2A88 /* SignIn.swift */,
+				57C96B25278DB04D003E2A88 /* HomePage.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -322,6 +319,7 @@
 			children = (
 				57C96B1E278DB04D003E2A88 /* animation.swift */,
 				57C96B1F278DB04D003E2A88 /* HomeStartViewController.swift */,
+				57A6986C2792CEA5009E5776 /* Traditional Animation Logo.MOV */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -342,6 +340,7 @@
 				57C96B2B278DB04D003E2A88 /* UiView.swift */,
 				57C96B2C278DB04D003E2A88 /* OnboardSlide.swift */,
 				57C96B2D278DB04D003E2A88 /* StructQuiz.swift */,
+				57A6986A2792CA9B009E5776 /* StructAnimals.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -349,8 +348,15 @@
 		57C96B36278DB04D003E2A88 /* Controler */ = {
 			isa = PBXGroup;
 			children = (
-				57C96B25278DB04D003E2A88 /* HomePage.swift */,
-				57C96AE5278DB04D003E2A88 /* ViewController.swift */,
+				57C96B0F278DB04D003E2A88 /* CollectionView */,
+				57C96B1B278DB04D003E2A88 /* Quiz */,
+				57C96B26278DB04D003E2A88 /* Videos */,
+				57C96AE2278DB04D003E2A88 /* Settings */,
+				57C96B17278DB04D003E2A88 /* Animls */,
+				57C96B14278DB04D003E2A88 /* Auth */,
+				57C96B04278DB04D003E2A88 /* Numbers */,
+				57C96AE8278DB04D003E2A88 /* Letters */,
+				57C96AE6278DB04D003E2A88 /* Drawing */,
 			);
 			path = Controler;
 			sourceTree = "<group>";
@@ -451,6 +457,7 @@
 				57C96B57278DB04D003E2A88 /* S.wav in Resources */,
 				57C96B47278DB04D003E2A88 /* L.wav in Resources */,
 				57C96B4F278DB04D003E2A88 /* B.wav in Resources */,
+				57A6986E2792CF7D009E5776 /* Traditional Animation Logo.MOV in Resources */,
 				57C96B58278DB04D003E2A88 /* D.wav in Resources */,
 				57C96ACB278DAF54003E2A88 /* LaunchScreen.storyboard in Resources */,
 				57C96B5E278DB04D003E2A88 /* 5.wav in Resources */,
@@ -500,6 +507,7 @@
 				57C96B6D278DB04D003E2A88 /* animation.swift in Sources */,
 				57C96B66278DB04D003E2A88 /* CollectionNames.swift in Sources */,
 				57C96B69278DB04D003E2A88 /* Animls.swift in Sources */,
+				57A6986B2792CA9B009E5776 /* StructAnimals.swift in Sources */,
 				57C96ABF278DAF4D003E2A88 /* AppDelegate.swift in Sources */,
 				57C96B63278DB04D003E2A88 /* ProductObject.swift in Sources */,
 				57C96B6E278DB04D003E2A88 /* HomeStartViewController.swift in Sources */,

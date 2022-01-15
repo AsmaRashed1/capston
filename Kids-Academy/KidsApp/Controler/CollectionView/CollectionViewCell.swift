@@ -15,7 +15,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     
     func Update(Product : ProductObject) {
-        self.Des.text = Product.Des
+        self.Des.text = Product.des
         
         guard let downloadURL = URL(string:Product.image ?? "") else {return}
         
