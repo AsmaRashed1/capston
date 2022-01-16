@@ -80,13 +80,13 @@
 		57C96B83278DB42B003E2A88 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 57C96B82278DB42B003E2A88 /* FirebaseDatabase */; };
 		57C96B86278DB8C9003E2A88 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 57C96B85278DB8C9003E2A88 /* Kingfisher */; };
 		57DFC6D227940B9E00C190CB /* pexels-mart-production-7342331.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57DFC6D127940B9900C190CB /* pexels-mart-production-7342331.mp4 */; };
+		57DFC6D42794120C00C190CB /* extensionLoclaible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFC6D32794120C00C190CB /* extensionLoclaible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		578BF041278F444900CE9982 /* ZAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZAdminViewController.swift; sourceTree = "<group>"; };
 		57A6986A2792CA9B009E5776 /* StructAnimals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructAnimals.swift; sourceTree = "<group>"; };
 		57A69872279302AC009E5776 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		57A69874279302B4009E5776 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		57C96ABB278DAF4D003E2A88 /* KidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C96ABE278DAF4D003E2A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C96AC0278DAF4D003E2A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +155,7 @@
 		57C96B7F278DB24E003E2A88 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
 		57C96B80278DB24E003E2A88 /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		57DFC6D127940B9900C190CB /* pexels-mart-production-7342331.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pexels-mart-production-7342331.mp4"; sourceTree = "<group>"; };
+		57DFC6D32794120C00C190CB /* extensionLoclaible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionLoclaible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +338,7 @@
 				57C96B2B278DB04D003E2A88 /* UiView.swift */,
 				57C96B2D278DB04D003E2A88 /* StructQuiz.swift */,
 				57A6986A2792CA9B009E5776 /* StructAnimals.swift */,
+				57DFC6D32794120C00C190CB /* extensionLoclaible.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -344,9 +346,9 @@
 		57C96B36278DB04D003E2A88 /* Controler */ = {
 			isa = PBXGroup;
 			children = (
-				57C96B1D278DB04D003E2A88 /* Animation */,
 				57C96AC0278DAF4D003E2A88 /* SceneDelegate.swift */,
 				57C96ABE278DAF4D003E2A88 /* AppDelegate.swift */,
+				57C96B1D278DB04D003E2A88 /* Animation */,
 				57C96B0F278DB04D003E2A88 /* CollectionView */,
 				57C96B1B278DB04D003E2A88 /* Quiz */,
 				57C96B26278DB04D003E2A88 /* Videos */,
@@ -508,6 +510,7 @@
 				57C96B64278DB04D003E2A88 /* AddNewProductVC.swift in Sources */,
 				57C96B5B278DB04D003E2A88 /* Number.swift in Sources */,
 				57C96B3A278DB04D003E2A88 /* StartingVC.swift in Sources */,
+				57DFC6D42794120C00C190CB /* extensionLoclaible.swift in Sources */,
 				57C96B3E278DB04D003E2A88 /* Letters.swift in Sources */,
 				57C96B76278DB04D003E2A88 /* UiView.swift in Sources */,
 				57C96B6C278DB04D003E2A88 /* Quiz.swift in Sources */,
@@ -535,7 +538,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				57A69872279302AC009E5776 /* ar-SA */,
-				57A69874279302B4009E5776 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

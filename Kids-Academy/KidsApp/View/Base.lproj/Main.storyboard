@@ -1776,14 +1776,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X01-0a-Gge">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cB2-fY-By5">
-                                        <rect key="frame" x="8" y="45" width="60" height="41"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cB2-fY-By5">
+                                        <rect key="frame" x="8" y="45" width="81" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="ENk-T0-AUY"/>
                                         </constraints>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Skip">
+                                        <buttonConfiguration key="configuration" style="gray" title="Skip">
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
                                         </buttonConfiguration>
                                         <connections>
