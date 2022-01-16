@@ -21,13 +21,15 @@ class HomeStartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
         cornerRadius(view1: btnStart, radius: 17)
         
         playVideo()
     }
     
-
+    
     func cornerRadius(view1: UIView, radius: CGFloat = 10) {
         view1.layer.cornerRadius = radius
     }
@@ -53,7 +55,7 @@ class HomeStartViewController: UIViewController {
         
         videoLayer.bringSubviewToFront(btnStart)
         videoLayer.bringSubviewToFront(lblWelcome)
-   
+        
     }
     
     @IBAction func getStart(_ sender: UIButton) {

@@ -55,7 +55,7 @@ class ProductObject {
 
 
 class ProductApi {
-
+    
     static func GetProduct(ID : String, completion : @escaping (_ Product : ProductObject)->()){
         Firestore.firestore().collection("Products").document(ID).addSnapshotListener { (Snapshot : DocumentSnapshot?, Error : Error?) in
             if let data = Snapshot?.data() as [String : AnyObject]? {
@@ -76,7 +76,7 @@ class ProductApi {
                 }
             }
         }
-
+        
     }
     
 }

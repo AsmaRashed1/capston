@@ -8,14 +8,14 @@
 import UIKit
 
 class CollectionNames: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-
+    
     @IBOutlet weak var CollectionView: UICollectionView!
     
     var Des : [ProductObject] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         CollectionView.delegate = self
         CollectionView.dataSource = self
         getData()
@@ -49,7 +49,7 @@ class CollectionNames: UIViewController, UICollectionViewDelegate, UICollectionV
         
         return cell
     }
-
-
+    
+    
     
 }

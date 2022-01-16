@@ -8,7 +8,7 @@
 import UIKit
 
 class Animls: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-
+    
     @IBOutlet weak var animalCollecation: UICollectionView!
     
     
@@ -22,7 +22,7 @@ class Animls: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         animalCollecation.dataSource = self
     }
     
-
+    
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -39,6 +39,6 @@ class Animls: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         return cell
     }
     
-   
-
+    
+    
 }

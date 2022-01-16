@@ -8,7 +8,7 @@
 import UIKit
 import PencilKit
 class Drawing: UIViewController {
-
+    
     @IBOutlet weak var litter: UILabel!
     
     
@@ -24,7 +24,7 @@ class Drawing: UIViewController {
         ViewX.clipsToBounds = true
         ViewX.isMultipleTouchEnabled = false
     }
-
+    
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first

@@ -11,7 +11,7 @@ import Kingfisher
 
 class AddNewProductVC: UIViewController {
     
-
+    
     @IBOutlet weak var Des: UITextField!
     
     @IBOutlet weak var lableDone: UILabel!
@@ -26,7 +26,7 @@ class AddNewProductVC: UIViewController {
     
     
     @IBAction func UploadData(_ sender: Any) {
-    
+        
         lableDone.text = "Done Upload"
         
         let GenerateID = UUID().uuidString
@@ -34,15 +34,15 @@ class AddNewProductVC: UIViewController {
         
         newProduct.Upload()
         
-//        uploadImage(image: 1b5e29da-e224-4f47-80bc-0ab2fe09965e)
+        //        uploadImage(image: 1b5e29da-e224-4f47-80bc-0ab2fe09965e)
         
         
     }
     
     @IBAction func uploadImg(_ sender: Any) {
-       
-  
-}
+        
+        
+    }
     
     func uploadImage(image:UIImage) {
         
@@ -73,6 +73,6 @@ class AddNewProductVC: UIViewController {
         
         
     }
-
+    
 }
 

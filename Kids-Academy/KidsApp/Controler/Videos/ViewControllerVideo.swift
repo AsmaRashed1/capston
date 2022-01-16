@@ -10,7 +10,7 @@ import AVKit
 import FirebaseDatabase
 
 class ViewControllerVideo: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     
     @IBOutlet weak var tableview: UITableView!
     
@@ -27,7 +27,7 @@ class ViewControllerVideo: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     
-       
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +37,7 @@ class ViewControllerVideo: UIViewController, UITableViewDelegate, UITableViewDat
         DataVideo()
         
     }
-
+    
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -86,5 +86,5 @@ class ViewControllerVideo: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     
-
+    
 }

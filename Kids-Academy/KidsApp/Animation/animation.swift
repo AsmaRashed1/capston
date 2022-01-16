@@ -9,7 +9,7 @@
 import UIKit
 
 class PulseAnimation: CALayer {
-
+    
     var animationGroup = CAAnimationGroup()
     var animationDuration: TimeInterval = 1.5
     var radius: CGFloat = 200
@@ -39,7 +39,7 @@ class PulseAnimation: CALayer {
             self.setupAnimationGroup()
             DispatchQueue.main.async {
                 self.add(self.animationGroup, forKey: "pulse")
-           }
+            }
         }
     }
     

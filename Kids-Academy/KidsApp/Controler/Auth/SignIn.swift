@@ -9,21 +9,21 @@ import UIKit
 import FirebaseAuth
 
 class SignIn: UIViewController {
-
     
-    @IBOutlet weak var EmailTextField: UITextField!
     
-    @IBOutlet weak var PasswordTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupBagroundTap()
     }
-   
+    
     @IBAction func SignInButton(_ sender: Any) {
         
-        Auth.auth().signIn(withEmail: self.EmailTextField.text!, password: self.PasswordTextField.text!) { (auth, error) in
+        Auth.auth().signIn(withEmail: self.emailTextField.text!, password: self.passwordTextField.text!) { (auth, error) in
             
             if error == nil {
                 print("Done signing in.")
@@ -37,8 +37,8 @@ class SignIn: UIViewController {
     private func setupBagroundTap(){
         let tapGesture = UITapGestureRecognizer (target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(tapGesture)
-      }
-      @objc func hideKeyboard (){
+    }
+    @objc func hideKeyboard (){
         view.endEditing(false)
-      }
+    }
 }

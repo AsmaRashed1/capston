@@ -10,7 +10,7 @@ import UIKit
 
 
 class Quiz: UIViewController {
-
+    
     @IBOutlet weak var QLable: UILabel!
     
     @IBOutlet var Button: [UIButton]!
@@ -29,11 +29,11 @@ class Quiz: UIViewController {
                      Question(Question: "7 + 8", Ansers: ["10","11","15","3"], Anser: 2),
                      Question(Question: "10 + 1", Ansers: ["10","11","15","13"], Anser: 1),
                      Question(Question: "The Quiz is Done", Ansers: ["Done","Done","Done","Done"], Anser: 4)]
-
+        
         redomeQuestion()
     }
     
-
+    
     
     
     func redomeQuestion(){

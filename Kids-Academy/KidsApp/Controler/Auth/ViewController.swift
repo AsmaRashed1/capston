@@ -8,10 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var page1: UIView!
     @IBOutlet weak var page2: UIView!
-
+    
     @IBAction func Segmented(_ sender: UISegmentedControl) {
         
         if sender.selectedSegmentIndex == 0 {

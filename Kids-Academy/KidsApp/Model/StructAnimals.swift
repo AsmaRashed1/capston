@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 struct animal {
-   
+    
     var nameAnimal : String
     var photo : UIImage
     
