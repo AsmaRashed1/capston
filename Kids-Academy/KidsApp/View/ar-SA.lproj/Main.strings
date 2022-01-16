@@ -1,0 +1,98 @@
+
+/* Class = "UITextField"; placeholder = "  Confirm Password"; ObjectID = "5GB-dQ-Bxn"; */
+"5GB-dQ-Bxn.placeholder" = "  تأكيد كلمة السر";
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "9Yb-vE-c5W"; */
+"9Yb-vE-c5W.placeholder" = "كلمة السر";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "KKm-2e-93w"; */
+"KKm-2e-93w.title" = "الاعدادات";
+/* Class = "UILabel"; text = "Number"; ObjectID = "LcY-wb-Qgz"; */
+"LcY-wb-Qgz.text" = "الارقام";
+
+/* Class = "UILabel"; text = "Quiz"; ObjectID = "MBd-Lc-Yhd"; */
+"MBd-Lc-Yhd.text" = "الامتحان";
+
+/* Class = "UILabel"; text = "Translation"; ObjectID = "NiD-CF-G9n"; */
+"NiD-CF-G9n.text" = "الألوان ";
+
+/* Class = "UILabel"; text = "Sing Out"; ObjectID = "OLo-5r-48Y"; */
+"OLo-5r-48Y.text" = "تسجيل الخروج";
+
+/* Class = "UISegmentedControl"; OPH-oc-8On.segmentTitles[0] = "Sign in"; ObjectID = "OPH-oc-8On"; */
+"OPH-oc-8On.segmentTitles[0]" = "تسجيل الدخول";
+
+/* Class = "UISegmentedControl"; OPH-oc-8On.segmentTitles[1] = "Sign Up"; ObjectID = "OPH-oc-8On"; */
+"OPH-oc-8On.segmentTitles[1]" = "انشاء حساب";
+
+/* Class = "UIButton"; configuration.title = "sign in"; ObjectID = "Ql6-nm-hLe"; */
+"Ql6-nm-hLe.configuration.title" = "تسجيل الدخول";
+
+/* Class = "UINavigationItem"; title = "Animals"; ObjectID = "SeN-4n-Tl2"; */
+"SeN-4n-Tl2.title" = "الحيوانات";
+
+/* Class = "UITextField"; placeholder = "   Email"; ObjectID = "T4b-tY-7h8"; */
+"T4b-tY-7h8.placeholder" = "   البريد الالكتروني";
+
+/* Class = "UILabel"; text = "تغيير اللغة"; ObjectID = "Y53-YU-Uo9"; */
+
+
+
+/* Class = "UILabel"; text = "Song"; ObjectID = "ZoC-eM-CRC"; */
+"ZoC-eM-CRC.text" = "الاناشيد";
+
+/* Class = "UITextField"; placeholder = "add data"; ObjectID = "bPa-Cq-dcd"; */
+"bPa-Cq-dcd.placeholder" = "اضافة البيانات";
+
+/* Class = "UIButton"; configuration.title = "upload data"; ObjectID = "cGS-UB-crL"; */
+"cGS-UB-crL.configuration.title" = "تحديث البيانات";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "ejp-GZ-AxQ"; */
+"ejp-GZ-AxQ.placeholder" = "البريد الالكتروني";
+
+
+/* Class = "UILabel"; text = "Enable Darck mode"; ObjectID = "hUF-4c-d92"; */
+"hUF-4c-d92.text" = "تفعيل الوضع الليلي";
+
+
+/* Class = "UILabel"; text = "Sing in to Admin Panle"; ObjectID = "i0x-kt-0VV"; */
+"i0x-kt-0VV.text" = "الدخول الى لوحة الادمن";
+
+
+/* Class = "UILabel"; text = "Draw"; ObjectID = "iXp-sN-iEU"; */
+"iXp-sN-iEU.text" = "الرسم";
+
+/* Class = "UIButton"; configuration.title = "Clear"; ObjectID = "kHW-0h-k0Y"; */
+"kHW-0h-k0Y.configuration.title" = "مسح";
+
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "kYS-WI-nfA"; */
+"kYS-WI-nfA.title" = "الصفحة الرئيسية";
+
+/* Class = "UINavigationItem"; title = "KidsApp"; ObjectID = "lYr-up-0Ce"; */
+"lYr-up-0Ce.title" = "تطبيق الاطفال";
+
+/* Class = "UILabel"; text = "Animals"; ObjectID = "m5G-Zc-n4G"; */
+"m5G-Zc-n4G.text" = "الحيوانات";
+
+
+/* Class = "UILabel"; text = "Draw English letters and numbers"; ObjectID = "nQf-zu-jeQ"; */
+"nQf-zu-jeQ.text" = "ارسم الاحرف و الارقام";
+
+/* Class = "UILabel"; text = "Letters"; ObjectID = "oeQ-Hw-7Bi"; */
+"oeQ-Hw-7Bi.text" = "الاحرف";
+
+/* Class = "UIButton"; configuration.title = "sing up"; ObjectID = "osi-9y-Yua"; */
+"osi-9y-Yua.configuration.title" = "انشاء حساب";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "tIS-Q0-Nm9"; */
+"tIS-Q0-Nm9.title" = "اختبار";
+
+
+"5Ie-cc-WFN.text" = "اللغة";
+
+"Kaw-m2-EgN.configuration.title" = "كلمة السر";
+
+
+"cB2-fY-By5.configuration.title" = "أبــدأ";
+
+"2Xu-WY-g0Y.text" = "مـرحبا";
