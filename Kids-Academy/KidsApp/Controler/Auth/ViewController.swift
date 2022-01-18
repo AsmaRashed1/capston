@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    //MARK:- Outlet
+
     @IBOutlet weak var page1: UIView!
     @IBOutlet weak var page2: UIView!
     
+    
+    //MARK:- action
+
     @IBAction func Segmented(_ sender: UISegmentedControl) {
         
         if sender.selectedSegmentIndex == 0 {

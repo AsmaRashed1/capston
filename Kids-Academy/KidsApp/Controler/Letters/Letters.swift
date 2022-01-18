@@ -12,7 +12,8 @@ class Letters: UIViewController {
     var audioPlayer = AVAudioPlayer()
     let AudioX = ["A", "B", "C", "D", "E", "F", "G","H","I", "J", "K", "L", "M", "N", "O", "P","Q", "R", "S", "T", "U", "V", "W", "X","Y","Z"]
     
-    
+    //MARK:- outlet collection
+
     @IBOutlet var Letter: [UIButton]!
     
     
@@ -25,7 +26,8 @@ class Letters: UIViewController {
     @IBAction func LetterPrees(_ sender: UIButton) {
         play(note: Letter.firstIndex(of: sender)! + 1 )
     }
-    
+    //MARK:- funcation play sound
+
     func play(note: Int) {
         print(note,AudioX[note - 1])
         let Au = AudioX[note - 1]

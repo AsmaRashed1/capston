@@ -7,10 +7,12 @@
 
 import UIKit
 import FirebaseAuth
+import TextFieldEffects
 
 class SignIn: UIViewController {
     
-    
+    //MARK:- outlet
+
     @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
@@ -34,6 +36,9 @@ class SignIn: UIViewController {
         }
         
     }
+    
+    //MARK:- Gesture Recognizer
+
     private func setupBagroundTap(){
         let tapGesture = UITapGestureRecognizer (target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(tapGesture)

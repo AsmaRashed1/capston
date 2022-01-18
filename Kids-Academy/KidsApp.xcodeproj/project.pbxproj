@@ -10,6 +10,7 @@
 		578BF042278F444900CE9982 /* ZAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BF041278F444900CE9982 /* ZAdminViewController.swift */; };
 		57A6986B2792CA9B009E5776 /* StructAnimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A6986A2792CA9B009E5776 /* StructAnimals.swift */; };
 		57A69871279302AC009E5776 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57A69873279302AC009E5776 /* Localizable.strings */; };
+		57C2EFE12796CA4100A21437 /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 57C2EFE02796CA4100A21437 /* TextFieldEffects */; };
 		57C96ABF278DAF4D003E2A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C96ABE278DAF4D003E2A88 /* AppDelegate.swift */; };
 		57C96AC1278DAF4D003E2A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C96AC0278DAF4D003E2A88 /* SceneDelegate.swift */; };
 		57C96AC6278DAF4D003E2A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C96AC4278DAF4D003E2A88 /* Main.storyboard */; };
@@ -169,6 +170,7 @@
 				57C96ADA278DAFD5003E2A88 /* FirebaseStorage in Frameworks */,
 				57C96AD6278DAFD5003E2A88 /* FirebaseAuth in Frameworks */,
 				57C96AD8278DAFD5003E2A88 /* FirebaseFirestore in Frameworks */,
+				57C2EFE12796CA4100A21437 /* TextFieldEffects in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +404,7 @@
 				57C96AD9278DAFD5003E2A88 /* FirebaseStorage */,
 				57C96B82278DB42B003E2A88 /* FirebaseDatabase */,
 				57C96B85278DB8C9003E2A88 /* Kingfisher */,
+				57C2EFE02796CA4100A21437 /* TextFieldEffects */,
 			);
 			productName = KidsApp;
 			productReference = 57C96ABB278DAF4D003E2A88 /* KidsApp.app */;
@@ -435,6 +438,7 @@
 			packageReferences = (
 				57C96AD2278DAFD5003E2A88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				57C96B84278DB8C9003E2A88 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				57C2EFDF2796CA4100A21437 /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
 			);
 			productRefGroup = 57C96ABC278DAF4D003E2A88 /* Products */;
 			projectDirPath = "";
@@ -759,6 +763,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		57C2EFDF2796CA4100A21437 /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		57C96AD2278DAFD5003E2A88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -778,6 +790,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		57C2EFE02796CA4100A21437 /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57C2EFDF2796CA4100A21437 /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
 		57C96AD3278DAFD5003E2A88 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 57C96AD2278DAFD5003E2A88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

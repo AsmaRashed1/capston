@@ -2,7 +2,7 @@
 //  StructAnimals.swift
 //  KidsApp
 //
-//  Created by Asma Rasheed on 12/06/1443 AH.
+//  Created by Asma Rasheed on 23/12/2021.
 //
 
 import Foundation

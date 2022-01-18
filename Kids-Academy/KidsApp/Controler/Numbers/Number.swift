@@ -23,7 +23,8 @@ class Number: UIViewController {
     @IBAction func NumberPress(_ sender: UIButton) {
         play(note: Numbers.firstIndex(of: sender)! + 1 )
     }
-    
+    //MARK:- funcation play sound
+
     func play(note: Int) {
         print(note,AudioX[note - 1])
         let Au = AudioX[note - 1]

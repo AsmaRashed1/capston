@@ -10,7 +10,8 @@ import FirebaseAuth
 
 class SignUp: UIViewController {
     
-    
+    //MARK:- outlet
+
     @IBOutlet weak var emailAddress: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var ConfirmPasswordT: UITextField!
@@ -23,7 +24,8 @@ class SignUp: UIViewController {
     }
     
     
-    
+    //MARK:- action
+
     @IBAction func SignUpAction(_ sender: UIButton) {
         
         
@@ -53,6 +55,8 @@ class SignUp: UIViewController {
             }
         }
         
+        //MARK:- condition email & password
+
         if emailAddress.text?.isEmpty ?? true || password.text?.isEmpty ?? true {
             let alert = UIAlertController(title: "please Enter Email", message: "your email is missing", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default , handler: nil))
