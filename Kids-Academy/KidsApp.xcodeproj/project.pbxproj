@@ -278,7 +278,6 @@
 		57C96B0F278DB04D003E2A88 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				57C96B10278DB04D003E2A88 /* ProductObject.swift */,
 				57C96B11278DB04D003E2A88 /* AddNewProductVC.swift */,
 				57C96B12278DB04D003E2A88 /* CollectionViewCell.swift */,
 				57C96B13278DB04D003E2A88 /* CollectionNames.swift */,
@@ -327,7 +326,6 @@
 		57C96B26278DB04D003E2A88 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
-				57C96B27278DB04D003E2A88 /* Videos.swift */,
 				57C96B28278DB04D003E2A88 /* TableViewCell.swift */,
 				57C96B29278DB04D003E2A88 /* ViewControllerVideo.swift */,
 			);
@@ -338,9 +336,11 @@
 			isa = PBXGroup;
 			children = (
 				57C96B2B278DB04D003E2A88 /* UiView.swift */,
+				57C96B27278DB04D003E2A88 /* Videos.swift */,
 				57C96B2D278DB04D003E2A88 /* StructQuiz.swift */,
 				57A6986A2792CA9B009E5776 /* StructAnimals.swift */,
 				57DFC6D32794120C00C190CB /* extensionLoclaible.swift */,
+				57C96B10278DB04D003E2A88 /* ProductObject.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

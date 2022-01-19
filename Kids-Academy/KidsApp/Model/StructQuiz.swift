@@ -10,6 +10,6 @@ import UIKit
 
 struct Question{
     var Question : String!
-    var Ansers : [String]!
+    var answers : [String]!
     var Anser : Int!
 }

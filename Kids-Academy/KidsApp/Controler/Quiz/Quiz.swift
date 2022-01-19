@@ -24,11 +24,11 @@ class Quiz: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Questions = [Question(Question: "2 + 7", Ansers: ["10","9","8","7"], Anser: 1),
-                     Question(Question: "4 + 3", Ansers: ["7","6","9","8"], Anser: 0),
-                     Question(Question: "7 + 8", Ansers: ["10","11","15","3"], Anser: 2),
-                     Question(Question: "10 + 1", Ansers: ["10","11","15","13"], Anser: 1),
-                     Question(Question: "The Quiz is Done", Ansers: ["Done","Done","Done","Done"], Anser: 4)]
+        Questions = [Question(Question: "2 + 7", answers: ["10","9","8","7"], Anser: 1),
+                     Question(Question: "4 + 3", answers: ["7","6","9","8"], Anser: 0),
+                     Question(Question: "7 + 8", answers: ["10","11","15","3"], Anser: 2),
+                     Question(Question: "10 + 1", answers: ["10","11","15","13"], Anser: 1),
+                     Question(Question: "The Quiz is Done", answers: ["Done","Done","Done","Done"], Anser: 4)]
         
         redomeQuestion()
     }
@@ -42,7 +42,7 @@ class Quiz: UIViewController {
             QLable.text = Questions[QNumber].Question
             AnserNumber = Questions[QNumber].Anser
             for i in 0..<Button.count{
-                Button[i].setTitle(Questions[QNumber].Ansers[i], for: UIControl.State.normal)
+                Button[i].setTitle(Questions[QNumber].answers[i], for: UIControl.State.normal)
             }
             Questions.remove(at: QNumber)
         }

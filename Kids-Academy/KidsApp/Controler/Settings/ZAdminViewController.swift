@@ -31,6 +31,7 @@ class ZAdminViewController: UIViewController {
         }else{
             Messeage()
         }
+        
     }
     
     func Messeage(){
