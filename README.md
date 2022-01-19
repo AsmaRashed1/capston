@@ -24,3 +24,6 @@ It is an application that helps children learn the alphabet and numbers in a fun
 - The user plays educational videos to help him in the learning process
 In addition to the test section for the calculation process.
 
+
+![Simulator Screen Shot - iPhone 13 - 2022-01-19 at 10 12 14](https://user-images.githubusercontent.com/91872287/150083079-ca097dd7-71a5-4433-ab43-2efcbde13af4.png)
+![Simulator Screen Shot - iPhone 13 - 2022-01-19 at 10 13 11](https://user-images.githubusercontent.com/91872287/150083088-def617e7-8ee8-426d-983a-9fa1fb504feb.png)
